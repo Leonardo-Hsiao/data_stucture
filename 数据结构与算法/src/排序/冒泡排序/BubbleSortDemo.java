@@ -1,4 +1,4 @@
-package ц╟ещеепР;
+package еепР.ц╟ещеепР;
 
 import java.util.Arrays;
 
