@@ -21,7 +21,7 @@ public class MergeSortDemo {
 //		System.out.println(arr.length);
 	}
 
-	private static void mergeSort(int[] arr) {
+	public static void mergeSort(int[] arr) {
 		// TODO Auto-generated method stub
 		if(arr == null || arr.length<=1) {
 			return ;
