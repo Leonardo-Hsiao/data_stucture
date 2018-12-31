@@ -1,4 +1,4 @@
-package 希尔排序;
+package 排序.希尔排序;
 /*
  * 希尔排序：其实就是分开的插入排序，简单
  * 先建立shellsort函数，计算增量d，传入函数shellinsert
