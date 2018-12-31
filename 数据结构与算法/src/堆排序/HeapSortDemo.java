@@ -7,8 +7,8 @@ package 堆排序;
  * 交换顶和最后的位置，排序完成一个，
  * 调整顶堆，再交换
  * 
- * heap
- * adjust
+ * heap 堆
+ * adjust 调整
  * */
 import java.util.Arrays;
 
@@ -29,7 +29,7 @@ public class HeapSortDemo {
 		}
 		for(int j=arr.length-1;j>0;j--) {
 			swap(arr,0,j);
-			adjustHeap(arr,0,j-1);
+			adjustHeap(arr,0,j-1);  //此处，注意减一！
 		}
 	}
 
